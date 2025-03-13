@@ -65,7 +65,7 @@ if __name__ == "__main__":
     print("")
     print("Source code: https://github.com/cloudedbats/sun_moon_calculator")
     print("")
-    print("Input to the calculations are position and year.")
+    print("Input used by the Sun moon calculator is position and year.")
     print("Position should be given as latitude and longitude, both in")
     print("the decimal degree format with decimal point, see default values.")
     print("A name for the position can be set, but is not mandatory.")
