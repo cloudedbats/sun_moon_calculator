@@ -48,3 +48,17 @@ plot_sunset_sunrise <- ggplot() +
   theme_bw()
 
 plot_sunset_sunrise
+
+# Export -----------------------------------------------------------------------
+
+dir_results = "results"
+# Create folder if not exists.
+if (!dir.exists(dir_results)) {
+  dir.create(dir_results)
+}
+
+plot_sunset_sunrise
+ggsave(
+  file.path(dir_results, "sun_ottenby_2025_plot.png"),
+)
+

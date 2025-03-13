@@ -42,7 +42,7 @@ Installation instruction for Windows users
 (where Python is installed at "C:\Python313\"):
 
     git clone https://github.com/cloudedbats/sun_moon_calculator.git
-    cd plankton-sun_moon_calculator
+    cd sun_moon_calculator
     C:\Python313\python.exe -m venv venv
     venv\Scripts\activate
     pip install -r requirements.txt
