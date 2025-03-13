@@ -2,3 +2,4 @@ astral
 python-dateutil
 click
 xlsxwriter
+pyinstaller
